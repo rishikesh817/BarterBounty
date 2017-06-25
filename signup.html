@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Login</title>
+		<title>Signup</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -29,19 +29,28 @@
 		<!-- Main -->
 			<section id="main" >
 			<header>
-						<h2><center>Login</center></h2>
+						<h2><center>Signup</center></h2>
 					</header>
 <form action="/action_page.php">
   
   <div class="container">
- 
+  
+   <label><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="name" required>
+	
+	<label><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="name" required>
+	
 	 <label><b>E-Mail ID</b></label>
     <input type="text" placeholder="Enter E-Mail ID" name="email" required>
 
     <label><b>Enter Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 	
-    <button type="submit">Login</button>
+	 <label><b>Enter Password Again</b></label>
+    <input type="password" placeholder="Enter Password" name="psw2" required>
+        
+    <button type="submit">Signup</button>
   </div>
 </form>
 
